@@ -167,24 +167,24 @@ button:hover{
         ";
 
     }else if($id_verifikasi==2){
-      $id_foto = $row['lokasi_gambar'];
-      $lokasi_foto = "http://localhost/websekolah/ngawur_tampilan/".$id_foto;
-      $id_file = $row['lokasi_file'];
-      $lokasi_file = "http://localhost/websekolah/ngawur_tampilan/".$id_file;
-      echo "
-        <label for='lname'>Foto</label>
-        </br>
-        </br>
-        <img src=".$lokasi_foto." height=50 width=50>
-        </br>
-        </br>
-        <label for='lname'>File</label>
-        </br>
-        </br>
-        <a href=".$lokasi_file.">
-        <button>Download Dokumen</button>
-        </a>
-        ";
+      // $id_foto = $row['lokasi_gambar'];
+      // $lokasi_foto = "http://localhost/websekolah/ngawur_tampilan/".$id_foto;
+      // $id_file = $row['lokasi_file'];
+      // $lokasi_file = "http://localhost/websekolah/ngawur_tampilan/".$id_file;
+      // echo "
+      //   <label for='lname'>Foto</label>
+      //   </br>
+      //   </br>
+      //   <img src=".$lokasi_foto." height=50 width=50>
+      //   </br>
+      //   </br>
+      //   <label for='lname'>File</label>
+      //   </br>
+      //   </br>
+      //   <a href=".$lokasi_file.">
+      //   <button>Download Dokumen</button>
+      //   </a>
+      //   ";
     }else if($id_verifikasi==3){
         
     }else{

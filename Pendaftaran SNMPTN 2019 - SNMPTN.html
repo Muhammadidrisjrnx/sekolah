@@ -89,36 +89,37 @@ function googleTranslateElementInit() {
 
 <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> -->
 
-	<form action="" class="qf form-horizontal" method="post" id="qfauto-0">
+	<form action="pendaftaran_process.php" class="qf form-horizontal" method="post" id="qfauto-0">
 		<fieldset id="qfauto-1"><legend id="qfauto-1-legend"><span>Pendaftaran Siswa</span></legend>
 			<div class="form-group">
 				<label class="col-sm-2 control-label" for="nisn">Nama<span class="required">*</span></label>
 				<div class="col-sm-10">
-					<input type="text" id="nisn" name="nisn" class="form-control" tabindex="1">	
+					<input type="text" id="nisn" name="nama" class="form-control" tabindex="1">	
 				</div>
 			</div>
 			<div class="form-group">
 				<label class="col-sm-2 control-label" for="nisn">Alamat<span class="required">*</span></label>
 				<div class="col-sm-10">
-					<input type="text" id="nisn" name="nisn" class="form-control" tabindex="2">	
+					<input type="text" id="nisn" name="alamat" class="form-control" tabindex="2">	
 				</div>
 			</div>
 			<div class="form-group">
 				<label class="col-sm-2 control-label" for="nisn">Tempat Lahir<span class="required">*</span></label>
 				<div class="col-sm-10">
-					<input type="text" id="nisn" name="nisn" class="form-control" tabindex="3">	
+					<input type="text" id="nisn" name="tempat lahir" class="form-control" tabindex="3">	
 				</div>
 			</div>
 			<div class="form-group">
 				<label class="col-sm-2 control-label" for="nisn">Tanggal Lahir<span class="required">*</span></label>
 				<div class="col-sm-10">
-					<input type="text" id="nisn" name="nisn" class="form-control" tabindex="2">	
+					<input type="text" id="nisn" name="tanggal_lahir" class="form-control" tabindex="2">	
 				</div>
 			</div>
 			<div class="form-group">
-				<label class="col-sm-2 control-label" for="nisn">Alamat<span class="required">*</span></label>
+				<label class="col-sm-2 control-label" for="nisn">Agama<span class="required">*</span></label>
 				<div class="col-sm-10">
-					<select class="form-control">
+					<select class="form-control" name="agama">
+						<option value="" selected disabled hidden>Choose here</option>
 						<option value="Islam">Islam</option>
 						<option value="Kristen">Kristen</option>
 						<option value="Hindu">Hindu</option>
@@ -127,50 +128,62 @@ function googleTranslateElementInit() {
 				</div>
 			</div>
 			<div class="form-group">
-				<label class="col-sm-2 control-label" for="nisn">Alamat<span class="required">*</span></label>
+				<label class="col-sm-2 control-label" for="nisn">Jurusan<span class="required">*</span></label>
 				<div class="col-sm-10">
-					<select class="form-control">
-						<option value="volvo">Volvo</option>
-						<option value="saab">Saab</option>
-						<option value="mercedes">Mercedes</option>
-						<option value="audi">Audi</option>
+					<select class="form-control" name="jurusan">
+						<option value="" selected disabled hidden>Choose here</option>
+						<option value="Desain Grafika">Desain Grafika</option>
+						<option value="Produksi Grafika">Produksi Grafika</option>
+						<option value="Desain Komunikasi Visual">Desain Komunikasi Visual</option>
+						<option value="Animasi">Animasi</option>
+						<option value="Rekayasa Perangkat Lunak">Rekayasa Perangkat Lunak</option>
 					</select>
 				</div>
 			</div>
 			<div class="form-group">
 				<label class="col-sm-2 control-label" for="nisn">Asal Sekolah<span class="required">*</span></label>
 				<div class="col-sm-10">
-					<input type="text" id="nisn" name="nisn" class="form-control" tabindex="2">	
+					<input type="text" id="nisn" name="asal_sekolah" class="form-control" tabindex="2">	
 				</div>
 			</div>
 			<div class="form-group">
 				<label class="col-sm-2 control-label" for="nisn">Umur<span class="required">*</span></label>
 				<div class="col-sm-10">
-					<input type="text" id="nisn" name="nisn" class="form-control" tabindex="2">	
+					<input type="text" id="nisn" name="umur" class="form-control" tabindex="2">	
+				</div>
+			</div>
+			<div class="form-group">
+				<label class="col-sm-2 control-label" for="nisn">Jenis Kelamin<span class="required">*</span></label>
+				<div class="col-sm-10">
+					<select class="form-control" name="jenis_kelamin">
+						<option value="" selected disabled hidden>Choose here</option>
+						<option value="Desain Grafika">Laki - Laki</option>
+						<option value="Produksi Grafika">Perempuan/option>
+					</select>
 				</div>
 			</div>
 			<div class="form-group">
 				<label class="col-sm-2 control-label" for="nisn">Nama Orang Tua<span class="required">*</span></label>
 				<div class="col-sm-10">
-					<input type="text" id="nisn" name="nisn" class="form-control" tabindex="2">	
+					<input type="text" id="nisn" name="nama_ortu" class="form-control" tabindex="2">	
 				</div>
 			</div>
 			<div class="form-group">
 				<label class="col-sm-2 control-label" for="nisn">Alamat Orang Tua<span class="required">*</span></label>
 				<div class="col-sm-10">
-					<input type="text" id="nisn" name="nisn" class="form-control" tabindex="2">	
+					<input type="text" id="nisn" name="alamat_ortu" class="form-control" tabindex="2">	
 				</div>
 			</div>
 			<div class="form-group">
 				<label class="col-sm-2 control-label" for="nisn">No. Handphone<span class="required">*</span></label>
 				<div class="col-sm-10">
-					<input type="text" id="nisn" name="nisn" class="form-control" tabindex="2">	
+					<input type="text" id="nisn" name="no_hp" class="form-control" tabindex="2">	
 				</div>
 			</div>
 			<div class="form-group">
 				<label class="col-sm-2 control-label" for="nisn">Prestasi<span class="required">*</span></label>
 				<div class="col-sm-10">
-					<input type="text" id="nisn" name="nisn" class="form-control" tabindex="2">	
+					<input type="text" id="nisn" name="prestasi" class="form-control" tabindex="2">	
 				</div>
 			</div>
 		</fieldset>

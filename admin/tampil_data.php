@@ -35,7 +35,7 @@ $(function() {
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="Pendaftaran SNMPTN 2019 - SNMPTN.html">SMK</a>
+			<a class="navbar-brand" href="../Pendaftaran SNMPTN 2019 - SNMPTN.html">SMK</a>
 		</div>
 			<div class="collapse navbar-collapse navbar-main-collapse">
 				<ul class="nav navbar-nav">
@@ -92,7 +92,8 @@ function googleTranslateElementInit() {
                 <tr>
                     <th width='300px'>Nama</th>
                     <th width='300px'>Alamat</th>
-                    <th width='300px'>Asal Sekolah</th>
+					<th width='300px'>Asal Sekolah</th>
+					<th width='300px'>Status Verifikasi</th>
                     <th width='300px'>Info</th>
                 </tr>
                 <?php
@@ -110,7 +111,8 @@ function googleTranslateElementInit() {
                   <td>".$row['nama']."</td>
                   <td>".$row['alamat']."</td>
                   <td>".$row['asal_sekolah']."</td>
-                  <td>
+				  <td>".$row['nama_verifikasi']."</td> 
+				  <td>
                   <a href='info_siswa.php?id_siswa=".$row['id_siswa']."'>
                   <button class='btn btn-primary'>Info</button>
                   </a>
